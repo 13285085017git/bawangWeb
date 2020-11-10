@@ -1,0 +1,132 @@
+$blue:#0D9445;
+$blueB:linear-gradient(10deg,#0D9445 , #0D9445);
+.van-button{
+  box-shadow:0px 2px 3px rgba(0,0,0,0.33);
+}
+.sky{
+  width: 550PX;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin:  auto;
+  background: #F5F7FA;
+  overflow: hidden;
+  overflow-y: auto;
+}
+@media (max-width: 500PX) {
+  .sky{
+    width: 100%;
+  }
+}
+.van-button--info{
+  background: $blue;
+}
+.van-overlay{
+  z-index: 999;
+}
+.vue-back-to-top{
+  background: none;
+}
+.vue-back-to-top .default {
+  background-color: rgba(0,0,0,0) !important;
+  width: 0 !important;
+  height: 0 !important;
+  border: 60px solid;
+  border-color: transparent transparent $blue;
+  display: flex;
+  justify-content: center;
+}
+.vue-back-to-top .default span{
+  position: relative;
+  top: 24px;
+  font-size: 30px;
+  display: none;
+}
+.cover .van-image__error, .van-image__img, .van-image__loading{
+  //width: auto !important;
+}
+.fatie {
+  .van-tabs--line .van-tabs__wrap{
+    height: 50px;
+    span{
+      position: relative;
+      top: 3px;
+    }
+  }
+}
+.van-list__loading,.van-list__finished-text{
+  width: 100%;
+  text-align: center;
+}
+.van-tabbar--fixed{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 550px;
+}
+@media (max-width: 550px) {
+  .van-tabbar--fixed{
+    width: 100%;
+  }
+}
+.botPop .van-cell{
+  background-color: #EDEFF2;
+  .van-field__body{
+    height: 100%;
+    .van-field__control{
+      height: 100% !important;
+    }
+  }
+}
+.newfont{
+  width: 90%;
+  margin: 0.53333rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  border-bottom: 1px solid #e8e8e8;
+}
+.newfont p{
+  margin-bottom: 5%;
+  font-size: 32px;
+  color: #555555;
+}
+.vue-back-to-top {
+  .van-icon {
+    font-size: 30px;
+  }
+}
+.van-index-bar__index{
+  font-size: 14px !important;
+  line-height: 18px !important;
+}
+.van-index-bar__index--active{
+  color: $blue !important;
+}
+.van-index-anchor--sticky{
+  color: $blue !important;
+  font-size: 18px !important;
+}
+.van-index-anchor{
+  background: #F3F4F5 !important;
+  text-align: left !important;
+  font-size: 18px !important;
+}
+.van-dropdown-menu__bar{
+  background-color: #fff0 !important;
+  box-shadow: none !important;
+}
+.zdlist .van-ellipsis{
+  color: #e92828 !important;
+}
+.zdlist{
+  .van-sticky--fixed{
+    top: 50px;
+    z-index: 999;
+  }
+}
+
